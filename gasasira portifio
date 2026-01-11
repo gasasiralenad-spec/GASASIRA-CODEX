@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gasasira Leonard — Portfolio</title>
+<meta name="description" content="Portfolio of YOUR NAME — developer, designer, maker">
+<link rel="icon" href="data:;base64,iVBORw0KGgo="> <!-- tiny blank favicon -->
+<style>
+/* Simple, modern responsive CSS */
+:root{
+    --bg:#0f1724; --card:#0b1220; --muted:#94a3b8; --accent:#7c3aed;
+--glass: rgba(255,255,255,0.04);
+color-scheme: dark;
+font-family: Leonard, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg),#130726);color:#f8e6ee}
+.container{max-width:1000px;margin:32px auto;padding:24px}
+header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:48px;height:48px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;font-weight:700}
+h1{margin:0;font-size:clamp(1.6rem,2.6vw,2.4rem)}
+p.lead{color:var(--muted);margin:8px 0 0}
+nav a{color:var(--muted);text-decoration:none;margin-left:12px}
+.hero{display:grid;grid-template-columns:1fr 320px;gap:24px;align-items:center;margin-top:28px}
+.card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.6);backdrop-filter:blur(6px)}
+.avatar{width:100%;height:100%;border-radius:12px;min-height:220px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));display:flex;align-items:center;justify-content:center}
+.skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.chip{background:var(--glass);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:0.9rem}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:18px}
+.project{padding:12px;border-radius:10px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border:1px solid rgba(255,255,255,0.03)}
+.project h3{margin:0 0 8px}
+
+footer{margin-top:28px;color:var(--muted);font-size:0.9rem;text-align:center}
+.btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+.btn-primary{background:linear-gradient(90deg,var(--accent),#06b6d4);color:#001}
+.social{display:flex;gap:10px;align-items:center}
+.social a{color:var(--muted);text-decoration:none}
+
+
+/* responsive */
+@media (max-width:900px){
+.hero{grid-template-columns:1fr}
+.avatar{min-height:180px}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="brand">
+<div class="logo">Y</div>
+<div>
+
+    <h1>Gasasira Leonard</h1>
+<p class="lead">Developer • Designer • Problem solver</p>
+</div>
+</div>
+
+
+<nav>
+<a href="#projects">FULL stack developer</a>
+<a href="#about">software Engineer</a>
+<a href="#contact">0794696851</a>
+</nav>
+</header>
+
+<main>
+<section class="hero">
+<div>
+<div class="card">
+<h2>Hi, I'm <strong>Gasasira Leonard</strong></h2>
+<p class="lead">I build elegant, accessible web experiences. I love JavaScript, clean UX and automating repetitive tasks.</p>
+
+
+<div class="skills" aria-hidden>
+<span class="chip">JavaScript</span>
+<span class="chip">React</span>
+<span class="chip">Node.js</span>
+<span class="chip">Python</span>
+<span class="chip">UI/UX</span>
+</div>
+
+
+<div style="margin-top:16px">
+<a class="btn btn-primary" href="#projects">See my work</a>
+<a class="btn" style="margin-left:8px;background:transparent;border:1px solid rgba(255,255,255,0.06)" href="https://github.com/gasasiralenad-spec" target="_blank">GitHub</a>
+</div>
+
+
+<div style="margin-top:16px;color:var(--muted);font-size:0.9rem">
+<strong>Location:</strong> Kigali, Rwanda &nbsp;•&nbsp; <strong>Availability:</strong> Open to opportunities
+</div>
+</div>
+
+<section id="projects" style="margin-top:20px">
+<h2 style="margin:0 0 8px">Selected projects</h2>
+<div class="projects">
+<article class="project card">
+<h3>Project One</h3>
+<p class="lead" style="margin:0 0 12px">my project is about  ANTI-scammers.</p>
+<div style="display:flex;gap:8px">
+<a class="btn" href="https://github.com/gasasiralenad-spec/project-one" target="_blank">Source</a>
+<a class="btn" href="#" target="_blank">Live</a>
+</div>
+</article>
+
+
+<article class="project card">
+<h3>Project Two</h3>
+<p class="lead" style="margin:0 0 12px">A short description, metrics, or who it helped.</p>
+<div style="display:flex;gap:8px">
+<a class="btn" href="https://github.com/gasasiralenad-spec/project-two" target="_blank">Source</a>
+<a class="btn" href="#" target="_blank">Live</a>
+</div>
+</article>
+
+<article class="project card">
+<h3>Project Three</h3>
+<p class="lead" style="margin:0 0 12px">world scammers and conflict we will generate app that will detect all those world challenges.</p>
+<div style="display:flex;gap:8px">
+<a class="btn" href="https://github.com/gasasiralenad-spec/project-three" target="_blank">Source</a>
+<a class="btn" href="#" target="_blank">Live</a>
+</div>
+</article>
+</div>
+</section>
+
+
+</div>
+
+
+<aside>
+<div class="card">
+<div class="avatar">
+<!-- Replace this with an <img> tag to use a photo -->
+<div style="text-align:center">
+<div style="font-size:28px;font-weight:700">development of apps</div>
+<div style="color:var(--muted);margin-top:6px">Backend & Frontend Developer</div>
+</div>
+</div>
+
+
+<div style="margin-top:12px;color:var(--muted);font-size:0.95rem">
+<strong>Experience</strong>
+<ul style="margin:6px 0 0;padding-left:18px">
+<li>1+ day building web apps</li>
+<li>Open-source contributor</li>
+
+<li>Mentor & bootcamp instructor</li>
+</ul>
+</div>
+
+
+<div style="margin-top:12px">
+<h4 style="margin:0 0 8px">Contact</h4>
+<div id="contact">
+<p style="margin:0 0 6px;color:var(--muted)">Email: <a href="mailto:gasasiralenad@gmail.com">gasasiralenad@gmail.com</a></p>
+<p style="margin:0 0 6px;color:var(--muted)">Phone: +250 794696851</p>
+<div class="social">
+<a href="https://github.com/gasasiralenad-spec" target="_blank">GitHub</a>
+<a href="https://linkedin.com/in/Gasasira LEONARD" target="_blank">LinkedIn</a>
+<a href="https://twitter.com/Gasasiralenad" target="_blank">Twitter</a>
+</div>
+</div>
+</div>
+
+
+</div>
+</aside>
+</section>
+
+
+<section id="about" style="margin-top:28px">
+<div class="card">
+<h2>About me</h2>
+<p class="lead">software Engineer in building both backend and frontend pat of application. app for making money and developing skills, i prefere technologies, and i will enjoy being an expert in full stack development.</p>
+</div>
+</section>
+
+
+</main>
+
+
+<footer>
+<div class="card" style="display:inline-block;padding:12px 16px;border-radius:999px">
+<small>Made with care • Replace content and publish to GitHub Pages</small>
+</div>ZR
+</footer>
+</div>
+
+
+<script>
+// Tiny enhancements: auto-fill title and meta from YOUR NAME to make initial editing easier
+(function(){
+const name = 'Gasasira Leonard';
+document.title = `${name} — Portfolio`;
+const h1 = document.querySelector('h1');
+if(h1 && h1.textContent.includes('Gasasira Leonard')) h1.textContent = name;
+})();
+</script>
+</body>
+</html>
